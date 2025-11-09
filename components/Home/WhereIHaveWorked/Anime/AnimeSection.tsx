@@ -1,4 +1,5 @@
 import { motion } from "framer-motion"
+import Link from "next/link"
 
 interface AnimeCharacter {
   name: string
@@ -114,7 +115,7 @@ export default function AnimeSection() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.4 }}
             >
-              <a href="/anime">
+              <Link href="/anime">
                 <button className="btn-anime font-anime text-lg group relative">
                   <span className="relative z-10">アニメの世界へ</span>
                   <span className="relative z-10 block text-sm">
@@ -132,7 +133,7 @@ export default function AnimeSection() {
                     }}
                   />
                 </button>
-              </a>
+              </Link>
             </motion.div>
           </div>
         </motion.div>
