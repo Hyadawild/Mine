@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+@layer utilities {
+  body::-webkit-scrollbar {
+    width: 0.4em;
+    background-color: #1a1b2a;
+  }
+
+  body::-webkit-scrollbar-thumb {
+    background-color: #f44c7f;
+    scrollbar-gutter: stable;
+    border-radius: 40px;
+  }
+
+  .anime-card {
+    @apply bg-animeBg-light rounded-lg p-6 transition-all duration-300 hover:transform hover:scale-105 hover:shadow-xl;
+    box-shadow: 0 0 15px rgba(244, 76, 127, 0.2);
+  }
+
+  .anime-text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-anime animate-shine;
+    background-size: 200% auto;
+  }
+
+  .anime-glow {
+    @apply animate-glow;
+  }
+
+  .anime-float {
+    @apply animate-float;
+  }
+
+  .anime-glitch {
+    @apply animate-glitch;
+  }
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background: linear-gradient(to bottom, #1a1b2a, #2c2f47);
+  color: #e2e8f0;
+  min-height: 100vh;
+}
+
+/* Anime-style button */
+.btn-anime {
+  @apply relative overflow-hidden px-6 py-3 rounded-lg text-animeText transition-all duration-300;
+  background: linear-gradient(45deg, #f44c7f, #7e3ace);
+  background-size: 200% auto;
+}
+
+.btn-anime:hover {
+  background-position: right center;
+  transform: translateY(-2px);
+  box-shadow: 0 0 20px rgba(244, 76, 127, 0.4);
+}
+
+/* Section headers with anime style */
+.section-title {
+  @apply font-anime text-4xl md:text-5xl font-bold mb-8 anime-text-gradient;
+}
+
+/* Card hover effects */
+.hover-card {
+  @apply transition-all duration-300;
+  box-shadow: 0 0 15px rgba(126, 58, 206, 0.2);
+}
+
+.hover-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 25px rgba(244, 76, 127, 0.4);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
