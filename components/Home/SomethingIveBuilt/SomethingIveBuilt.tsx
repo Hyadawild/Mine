@@ -155,11 +155,7 @@ export default function SomethingIveBuilt() {
                 ></div>
               </Link> */}
 
-              <a
-                href="https://ubiquitous-bublanina-da84ec.netlify.app/"
-                target={"_blank"}
-                rel="noreferrer"
-              >
+              <a href="" target={"_blank"} rel="noreferrer">
                 <div
                   // onClick={}
                   className="absolute w-full h-full rounded bg-AAprimary 
@@ -238,12 +234,8 @@ export default function SomethingIveBuilt() {
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
                 <div className="z-10 flex fle-row space-x-5 ">
-                  <GithubIcon link="https://github.com/hktitof/Ypredict" />
-                  <a
-                    href="https://ubiquitous-bublanina-da84ec.netlify.app/"
-                    target={"_blank"}
-                    rel="noreferrer"
-                  >
+                  <GithubIcon link="" />
+                  <a href="" target={"_blank"} rel="noreferrer">
                     <ExternalLink url={""} router={router} />
                   </a>
                 </div>
@@ -252,7 +244,7 @@ export default function SomethingIveBuilt() {
           </div>
         </div>
 
-        {/* // ?  Project 2 - FeverTokens */}
+        {/* // ?  Project  - FeverTokens */}
         <div
           data-aos="fade-up"
           className="relative md:grid md:grid-cols-12 w-full md:h-96  "
@@ -429,7 +421,7 @@ export default function SomethingIveBuilt() {
                 <span className="pr-4 z-10">TypeScript</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
-                <GithubIcon link="https://github.com/hktitof/Typing" />
+                <GithubIcon link="" />
                 <ExternalLink url={"typing"} router={router} />
               </div>
             </div>
@@ -454,7 +446,7 @@ export default function SomethingIveBuilt() {
                 ></div>
               </Link>
               <Img
-                src={"/hackme.jpg"}
+                src={"/hackme.png"}
                 alt={"Project Screen shot"}
                 className={`w-full rounded h-full `}
               />
@@ -514,7 +506,7 @@ export default function SomethingIveBuilt() {
                 <span className="pr-4 z-10">Location</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
-                <GithubIcon link="https://github.com/hktitof/DataPuller" />
+                <GithubIcon link="" />
                 <ExternalLink url={"/userdatapuller"} router={router} />
               </div>
             </div>
@@ -532,11 +524,7 @@ export default function SomethingIveBuilt() {
           absolute md:grid grid-cols-12 w-full h-full  content-center"
           >
             <div className="relative rounded w-full h-full col-span-7 ">
-              <a
-                href="https://www.haircut.ma"
-                target={"_blank"}
-                rel="noreferrer"
-              >
+              <a href="" target={"_blank"} rel="noreferrer">
                 <div
                   // onClick={}
                   className="absolute w-full h-full rounded bg-AAprimary 
@@ -545,13 +533,11 @@ export default function SomethingIveBuilt() {
               </a>
 
               <div className="absolute px-2 bg-AAprimary rounded  ml-4 mt-2 ">
-                <span className="text-AAsecondary text-xl">
-                  In initiation...
-                </span>
+                <span className="text-AAsecondary text-xl">Ongoing</span>
               </div>
 
               <Img
-                src={"/haircut.png"}
+                src={"/waifu.jpg"}
                 alt={"Project Screen shot"}
                 className={`w-full rounded h-full `}
               />
@@ -566,7 +552,7 @@ export default function SomethingIveBuilt() {
                 <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
                 <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
                 <Img
-                  src={"/haircut.png"}
+                  src={"/Waifu.png"}
                   alt={"Project Screen shot"}
                   className={`w-full h-full `}
                 />
@@ -575,7 +561,7 @@ export default function SomethingIveBuilt() {
             <div className="absolute w-full   rounded  ml-4 mt-2  text-end pr-8">
               <div className="w-full"></div>
               <span className="text-AAsecondary sm:text-lg bg-AAprimary px-2 py-1 rounded">
-                In initiation...
+                Ongoing
               </span>
             </div>
             <div
@@ -586,48 +572,41 @@ export default function SomethingIveBuilt() {
                 <span className="text-AAsecondary text-base">
                   Recent Project
                 </span>
-                <a
-                  href="https://www.haircut.ma"
-                  target={"_blank"}
-                  rel="noreferrer"
-                >
+                <a href="" target={"_blank"} rel="noreferrer">
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
-                    Haircut Appointment
+                    Waifu Diffusion
                   </span>
                 </a>
-              </div>
-              <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
+              </div>{" "}
+              <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6 z-10">
+                {" "}
                 <p className="text-gray-300 md:text-gray-400 text-left md:text-right">
-                  It&apos; a barber shop{" "}
+                  It&apos;s a powerful{" "}
+                  <span className="text-AAsecondary">web interface </span> for
+                  Stable Diffusion, an{" "}
+                  <span className="text-AAsecondary">AI text-to-image</span>
+                  model. It provides a comprehensive toolkit for{" "}
+                  <span className="text-AAsecondary">image generation</span>,
+                  inpainting, upscaling, and{" "}
+                  <span className="text-AAsecondary">model management</span>
+                  (like Loras & Hypernetworks), widely used for creating{" "}
                   <span className="text-AAsecondary">
-                    appointment scheduling
-                  </span>{" "}
-                  & management software it provides{" "}
-                  <span className="text-AAsecondary">online scheduling</span>,
-                  appointment reminders,{" "}
-                  <span className="text-AAsecondary">payments</span>, marketing,
-                  and much more! Currently in the{" "}
-                  <span className="text-AAsecondary">Initiation phase</span>.
-                </p>
+                    anime-style art
+                  </span>.{" "}
+                </p>{" "}
               </div>
               <ul
                 className="flex flex-wrap w-full text-gray-300 md:text-gray-400
                text-sm font-Text2 md:justify-end"
               >
-                <span className="pr-4 z-10">Appointment</span>
-                <span className="pr-4 z-10">Management</span>
-                <span className="pr-4 z-10">Scheduling</span>
-                <span className="pr-4 z-10">Booking</span>
+                <span className="pr-4 z-10">Difussion</span>
+                <span className="pr-4 z-10">Waifu</span>
+                <span className="pr-4 z-10">Generative</span>
+                <span className="pr-4 z-10">Image</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 sm:pt-0 pt-2">
-                <GithubIcon link="https://github.com/hktitof/haircut" />
-                <a
-                  href="https://www.haircut.ma"
-                  target={"_blank"}
-                  rel="noreferrer"
-                >
-                  <ExternalLink url={""} router={router} />
-                </a>
+                <GithubIcon link="https://github.com/Hyadawild/WaifuDiffusion" />
+                <a href="" target={"_blank"} rel="noreferrer"></a>
               </div>
             </div>
           </div>
@@ -645,7 +624,7 @@ export default function SomethingIveBuilt() {
           >
             <div className="relative rounded w-full h-full col-start-6 col-span-7 ">
               <a
-                href="https://github.com/hktitof/CallCenter"
+                href="https://github.com/Hyadawild/indomie-bot"
                 target={"_blank"}
                 rel="noreferrer"
               >
@@ -683,43 +662,41 @@ export default function SomethingIveBuilt() {
             col-span-8 flex flex-col items-start  sm:space-y-3 md:order-1"
             >
               <div className="flex flex-col space-y-1  z-10">
-                <span className="text-AAsecondary text-base">
-                  Recent Project
-                </span>
+                <span className="text-AAsecondary text-base">Deprecated</span>
                 <a
-                  href="https://github.com/hktitof/CallCenter"
+                  href="https://github.com/Hyadawild/indomie-bot"
                   target={"_blank"}
                   rel="noreferrer"
                 >
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
-                    Call Center Management System
+                    Indomie
                   </span>
                 </a>
-              </div>
-              <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
-                <p className="text-gray-300 md:text-gray-400 text-left ">
-                  A{" "}
-                  <span className="text-AAsecondary">
-                    JavaFX call center management system
-                  </span>{" "}
-                  project it is used for receiving or transmitting a large
-                  volume of enquiries between the agent and the customer,it
-                  handles the communication between agents & clients it can be
-                  used for the both side client & agent side to handle the
-                  messages and issues.
-                </p>
+              </div>{" "}
+              <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6 z-10">
+                {" "}
+                <p className="text-gray-300 md:text-gray-400 text-left md:text-right">
+                  It&apos;s an official{" "}
+                  <span className="text-AAsecondary">Discord music bot </span>{" "}
+                  For <span className="text-AAsecondary">Genshin Impact </span>
+                  community server. It provides{" "}
+                  <span className="text-AAsecondary">basic music</span> and
+                  moderation commands, supports interactions, and is{" "}
+                  <span className="text-AAsecondary">easy to configure</span>.
+                  II.{" "}
+                </p>{" "}
               </div>
               <ul
                 className="flex flex-wrap w-full text-gray-300 md:text-gray-400
                text-sm font-Text2 md:justify-start"
               >
-                <span className="pr-4 z-10">JavaFX</span>
-                <span className="pr-4 z-10">Java Concurrency</span>
+                <span className="pr-4 z-10">DiscordJS</span>
+                <span className="pr-4 z-10">Node Js</span>
                 <span className="pr-4 z-10">MultiThreading</span>
-                <span className="pr-4 z-10">MySQL</span>
+                <span className="pr-4 z-10">Discor Developer Academy</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 sm:pt-0 pt-2">
-                <GithubIcon link="https://github.com/hktitof/CallCenter" />
+                <GithubIcon link="https://github.com/Hyadawild/indomie-bot" />
               </div>
             </div>
           </div>
