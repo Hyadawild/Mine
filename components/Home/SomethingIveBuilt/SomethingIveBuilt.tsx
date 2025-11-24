@@ -73,7 +73,7 @@ export default function SomethingIveBuilt() {
                 <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
                 <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
                 <Img
-                  src={"/ensvision.jpg"}
+                  src={"/alter.png"}
                   alt={"Project Screen shot"}
                   className={`w-full h-full`}
                 />
@@ -256,7 +256,7 @@ export default function SomethingIveBuilt() {
           >
             <div className="relative rounded w-full h-full col-start-6 col-span-7 ">
               <a
-                href={"https://www.fevertokens.io/"}
+                href={""}
                 target="_blank"
                 rel="noreferrer"
               >
@@ -297,7 +297,7 @@ export default function SomethingIveBuilt() {
                   Recent Project
                 </span>
                 <a
-                  href="https://www.fevertokens.io/"
+                  href=""
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -461,7 +461,7 @@ export default function SomethingIveBuilt() {
                 <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
                 <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
                 <Img
-                  src={"/hackme.jpg"}
+                  src={"/hackme.png"}
                   alt={"Project Screen shot"}
                   className={`w-full h-full`}
                 />
