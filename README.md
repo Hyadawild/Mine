@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <a href="https://my-website-ten-sage.vercel.app/" target="_blank">
+  <a href="" target="_blank">
     <img src="https://raw.githubusercontent.com/DataDog/integrations-extras/master/vercel/images/logo-full-black.png" width="100" alt="Vercel Status" />
   </a>
 </p>
