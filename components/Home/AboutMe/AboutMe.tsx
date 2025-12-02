@@ -1,7 +1,7 @@
-import React from "react";
-import Img from "../../../components/smallComp/image/Img"; // Assuming this path is correct for your project
-import ArrowIcon from "../../../components/Icons/ArrowIcon"; // Assuming this path is correct for your project
-import { forwardRef } from "react";
+import React from "react"
+import Img from "../../../components/smallComp/image/Img" // Assuming this path is correct for your project
+import ArrowIcon from "../../../components/Icons/ArrowIcon" // Assuming this path is correct for your project
+import { forwardRef } from "react"
 interface AboutMeProps {
   // Define any props you might pass to AboutMe here
   // For example: profileImageUrl?: string;
@@ -9,9 +9,25 @@ interface AboutMeProps {
 
 const AboutMe = forwardRef<HTMLDivElement, AboutMeProps>((props, ref) => {
   const technologies = [
-    ["Next.js/React", "TypeScript/JavaScript", "Tailwind CSS", "Azure DevOps", "AWS/Google Cloud"],
-    ["Node.js", "Solidity/Web3.js", "Squiz Matrix CMS", "MongoDB/SQL Server", "AI Agents/Automation"],
-  ];
+    [
+      "Next.js/React",
+      "TypeScript/JavaScript",
+      "Tailwind CSS",
+      "Azure DevOps",
+      "AWS/Google Cloud",
+      "Hardhat/Ethers.js",
+      "Rust",
+    ],
+    [
+      "C++",
+      "C#",
+      "Node.js",
+      "Solidity/Web3.js",
+      "Squiz Matrix CMS",
+      "MongoDB/SQL Server",
+      "AI Agents/Automation",
+    ],
+  ]
 
   return (
     <div
@@ -57,8 +73,8 @@ const AboutMe = forwardRef<HTMLDivElement, AboutMeProps>((props, ref) => {
               <span className="text-AAsecondary">+4 years</span> honing my
               skills professionally and have been lucky enough to work with some
               really interesting companies and startups. I&apos;ve built
-              everything from NFT marketplaces , bringing complex data
-              to life online, managing its{" "}
+              everything from NFT marketplaces , bringing complex data to life
+              online, managing its{" "}
               <span className="text-AAsecondary">Aliyun DevOps</span> pipeline,
               and developing solutions with tools like{" "}
               <span className="text-AAsecondary">
@@ -137,6 +153,6 @@ const AboutMe = forwardRef<HTMLDivElement, AboutMeProps>((props, ref) => {
       </div>
     </div>
   )
-});
-AboutMe.displayName = "AboutMe";
-export default AboutMe; // Changed to a const for functional component definition with type
+})
+AboutMe.displayName = "AboutMe"
+export default AboutMe // Changed to a const for functional component definition with type
