@@ -164,7 +164,7 @@ export default function SomethingIveBuilt() {
               </a>
 
               <Img
-                src={"/img/YPredict-v1.jpg"}
+                src={"/img/YPredict-v1.png"}
                 alt={"Project Screen shot"}
                 className={`w-full rounded h-full `}
               />
@@ -179,7 +179,7 @@ export default function SomethingIveBuilt() {
                 <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
                 <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
                 <Img
-                  src={"/img/YPredict-v1.jpg"}
+                  src={"/img/YPredict-v1.png"}
                   alt={"Project Screen shot"}
                   className={`w-full h-full `}
                 />
@@ -200,7 +200,7 @@ export default function SomethingIveBuilt() {
                   rel="noopener noreferrer"
                 >
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
-                    YPredict - v1
+                    AniPredict - v3
                   </span>
                 </a>
               </div>
@@ -218,8 +218,11 @@ export default function SomethingIveBuilt() {
                     blockchain technology
                   </span>
                   . Here i share with you{" "}
-                  <span className="text-AAsecondary"> YPredict - v1 </span> for
-                  the private sale.
+                  <span className="text-AAsecondary">
+                    {" "}
+                    AniPredict - v3{" "}
+                  </span>{" "}
+                  for the private sale.
                 </p>
               </div>
               <ul
@@ -244,44 +247,40 @@ export default function SomethingIveBuilt() {
           </div>
         </div>
 
-        {/* // ?  Project  - FeverTokens */}
+        {/* // ?  Project - Cheeto-Panel */}
         <div
           data-aos="fade-up"
-          className="relative md:grid md:grid-cols-12 w-full md:h-96  "
+          className="relative md:grid md:grid-cols-12 w-full md:h-96 "
         >
-          {/* Left image */}
+          {/* Left image (Visible on Desktop) */}
           <div
-            className="hidden bg-AAprimary z-10  py-4 
-          absolute md:grid grid-cols-12 w-full h-full  content-center "
+            className="hidden bg-AAprimary z-10 py-4 
+  absolute md:grid grid-cols-12 w-full h-full content-center "
           >
             <div className="relative rounded w-full h-full col-start-6 col-span-7 ">
-              <a
-                href={""}
-                target="_blank"
-                rel="noreferrer"
-              >
+              <a href={""} target="_blank" rel="noreferrer">
                 <div
                   className="absolute w-full h-full rounded bg-AAprimary 
-           transition-opacity opacity-50 hover:opacity-0 hover:cursor-pointer duration-300"
+   transition-opacity opacity-50 hover:opacity-0 hover:cursor-pointer duration-300"
                 ></div>
               </a>
               <Img
-                src={"/img/feverTokens.png"}
-                alt={"Project Screen shot"}
+                src={"/panel.png"} // Ganti dengan path screenshot/ilustrasi anime tadi
+                alt={"Cheeto-Panel Screen shot"}
                 className={`w-full rounded h-full `}
               />
             </div>
           </div>
 
           {/* right Content */}
-          <div className=" md:absolute py-4  md:grid md:grid-cols-12 w-full h-full  content-center ">
+          <div className=" md:absolute py-4 md:grid md:grid-cols-12 w-full h-full content-center ">
             {/* background for text in mobile responsive */}
             <div className="absolute w-full h-full bg-opacity-70 z-0 md:order-2">
               <div className="relative w-full h-full">
                 <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
                 <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
                 <Img
-                  src={"/feverTokens.jpg"}
+                  src={"/panel.png"} // Ganti dengan path ilustrasi anime tadi
                   alt={"Project Screen shot"}
                   className={`w-full h-full`}
                 />
@@ -290,55 +289,51 @@ export default function SomethingIveBuilt() {
 
             <div
               className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6   
-            col-span-8 flex flex-col items-start  space-y-3 md:order-1"
+    col-span-8 flex flex-col items-start space-y-3 md:order-1"
             >
-              <div className="flex flex-col space-y-1  z-10">
+              <div className="flex flex-col space-y-1 z-10">
                 <span className="text-AAsecondary text-base">
-                  Recent Project
+                  Featured Project
                 </span>
-                <a
-                  href=""
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+                <a href="" target="_blank" rel="noopener noreferrer">
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
-                    FeverTokens
+                    Cheeto-Panel (Internal Menu)
                   </span>
                 </a>
               </div>
-              <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
+              <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6 z-10">
                 <p className="text-gray-300 md:text-gray-400 text-left">
-                  I played a key role in developing an NFT marketplace project,
-                  focused on creating a decentralized platform with scalable{" "}
-                  <span className="text-AAsecondary"> smart contracts</span> and{" "}
-                  <span className="text-AAsecondary">
-                    {" "}
-                    blockchain technology
-                  </span>
-                  . This platform,{" "}
-                  <span className="text-AAsecondary"> FeverTokens - v2</span>,
-                  was showcased at the VivaTech2022 event in Paris, providing
-                  builders with tools to develop scalable Web3 applications.
+                  I developed an advanced internal game modification tool using
+                  <span className="text-AAsecondary"> C++</span> and
+                  <span className="text-AAsecondary"> ImGui</span>. The project
+                  focuses on{" "}
+                  <span className="text-AAsecondary">memory manipulation</span>
+                  and reverse engineering to implement features like ESP and
+                  Aimbot, while maintaining a highly responsive and interactive
+                  UI for a seamless gaming experience.
                 </p>
               </div>
               <ul
                 className="flex flex-wrap w-full text-gray-300 md:text-gray-400
-               text-sm font-Text2 md:justify-start"
+       text-sm font-Text2 md:justify-start"
               >
-                <span className="pr-4 z-10">Tokenization</span>
-                <span className="pr-4 z-10">ERC721</span>
-                <span className="pr-4 z-10">Solidity</span>
-                <span className="pr-4 z-10">Smart Contracts</span>
-                <span className="pr-4 z-10">Blockchain</span>
+                <span className="pr-4 z-10">C++</span>
+                <span className="pr-4 z-10">ImGui</span>
+                <span className="pr-4 z-10">DirectX</span>
+                <span className="pr-4 z-10">Memory Hacking</span>
+                <span className="pr-4 z-10">Reverse Engineering</span>
               </ul>
-              <div className="z-10 flex fle-row space-x-5 ">
-                {/* <GithubIcon link="https://github.com/hktitof/Ypredict" /> */}
+              <div className="z-10 flex flex-row space-x-5 ">
                 <a
-                  href="https://www.fevertokens.io/"
+                  href="https://github.com/Taiga74164/Cheeto-Panel"
                   target={"_blank"}
                   rel="noreferrer"
                 >
-                  <ExternalLink url={""} router={router} />
+                  {/* Gunakan GithubIcon jika tersedia atau ExternalLink */}
+                  <ExternalLink
+                    url={"https://github.com/Taiga74164/Cheeto-Panel"}
+                    router={router}
+                  />
                 </a>
               </div>
             </div>
@@ -508,6 +503,105 @@ export default function SomethingIveBuilt() {
               <div className="z-10 flex fle-row space-x-5 ">
                 <GithubIcon link="" />
                 <ExternalLink url={"/userdatapuller"} router={router} />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* // ?  Project 4 - Hotori */}
+        <div
+          data-aos="fade-up"
+          className="relative md:grid md:grid-cols-12 w-full md:h-96  "
+        >
+          {/* Left image */}
+          <div
+            className="hidden bg-AAprimary z-10  py-4 
+           absolute md:grid grid-cols-12 w-full h-full  content-center "
+          >
+            <div className="relative rounded w-full h-full col-start-6 col-span-7 ">
+              <a
+                href="https://github.com/Hyadawild/Hotori"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <div
+                  className="absolute w-full h-full rounded bg-AAsecondary 
+            transition-opacity opacity-10 hover:opacity-0 hover:cursor-pointer duration-300"
+                ></div>
+              </a>
+              {/* Ganti /hotori.png dengan gambar screenshot aplikasi Hotori Anda */}
+              <Img
+                src={"/hotori.jpg"}
+                alt={"Hotori Project Screenshot"}
+                className={`w-full rounded h-full `}
+              />
+            </div>
+          </div>
+
+          {/* right Content */}
+          <div className=" md:absolute py-4  md:grid md:grid-cols-12 w-full h-full  content-center ">
+            {/* background for text in mobile responsive */}
+            <div className="absolute w-full h-full bg-opacity-70 z-0 md:order-2">
+              <div className="relative w-full h-full">
+                <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
+                <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
+                <Img
+                  src={"/hotori.jpg"}
+                  alt={"Hotori Project Screenshot"}
+                  className={`w-full h-full`}
+                />
+              </div>
+            </div>
+
+            <div
+              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6   
+            col-span-8 flex flex-col items-start  space-y-3 md:order-1"
+            >
+              <div className="flex flex-col space-y-1  z-10">
+                <span className="text-AAsecondary text-base">
+                  Desktop Application
+                </span>
+                <a
+                  href="https://github.com/Hyadawild/Hotori"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
+                    Hotori
+                  </span>
+                </a>
+              </div>
+              <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
+                <p className="text-gray-300 md:text-gray-400 text-left ">
+                  Sebuah aplikasi desktop yang memungkinkan Private server Beta
+                  test pengguna untuk menampilkan dan berinteraksi dengan
+                  karakter
+                  <span className="text-AAsecondary"> Live2D</span> langsung di
+                  layar desktop. Dibangun menggunakan{" "}
+                  <span className="text-AAsecondary">Tauri</span> dan{" "}
+                  <span className="text-AAsecondary">Rust</span> untuk
+                  memastikan performa tinggi dan penggunaan memori yang sangat
+                  ringan, memberikan pengalaman visual yang halus tanpa
+                  membebani sistem.
+                </p>
+              </div>
+              <ul
+                className="flex flex-wrap w-full text-gray-300 md:text-gray-400
+               text-sm font-Text2 md:justify-start"
+              >
+                <span className="pr-4 z-10">Rust</span>
+                <span className="pr-4 z-10">Tauri</span>
+                <span className="pr-4 z-10">React/TypeScript</span>
+                <span className="pr-4 z-10">Live2D Cubism</span>
+                <span className="pr-4 z-10">Desktop App</span>
+              </ul>
+              <div className="z-10 flex fle-row space-x-5 ">
+                <GithubIcon link="https://github.com/Hyadawild/Hotori" />
+                {/* Jika belum ada link demo live, arahkan ke repo atau kosongkan */}
+                <ExternalLink
+                  url={"https://github.com/Hyadawild/Hotori"}
+                  router={router}
+                />
               </div>
             </div>
           </div>

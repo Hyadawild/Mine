@@ -7,7 +7,7 @@ import IdealFresh from "./Descriptions/IdealFresh";
 import AdvancedAgroManagement from "./Descriptions/AdvancedAgroManagement";
 //import Indomie from "./Descriptions/Indomie";
 import SuperBerry from "./Descriptions/SuperBerry";
-import EnsVision from "./Descriptions/EnsVision";
+import CheetoPanel from "./Descriptions/CheetoPanel"
 import YpredictAI from "./Descriptions/YpredictAI";
 import Korepi from "./Descriptions/Korepi";
 import Indomie from "./Descriptions/Indomie";
@@ -18,8 +18,8 @@ export default function WhereIHaveWorked() {
   // ? INFORMATIONAL the default value of barRef's class should be at the beginning translate-y-[0px]
   const GetDescription = () => {
     switch (DescriptionJob) {
-      case "Vision":
-        return <EnsVision />;
+      case "Panel":
+        return <CheetoPanel />;
       case "YpredictAI":
         return <YpredictAI />;
       case "Hotori":
@@ -137,10 +137,10 @@ const CompaniesBar = props => {
           />
           <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={1}
-            CompanyName="Vision"
+            CompanyName="BAPanel"
             BarPosition={36}
             BarAvobePosition={128}
-            DescriptionJob="Vision"
+            DescriptionJob="Panel"
             CompanyNameBackgroundColorGreen={[false, true, false, false, false, false, false, false, false]}
             setDescriptionJob={props.setDescriptionJob}
           />
@@ -191,7 +191,7 @@ const CompaniesBar = props => {
           />
           <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={7}
-            CompanyName="AA Management"
+            CompanyName="Marketplace Management"
             BarPosition={299}
             BarAvobePosition={896}
             DescriptionJob="Advanced Agro Management"
